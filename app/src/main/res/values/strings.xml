@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Story App</string>
+    <string name="signup">Register</string>
+    <string name="login">Login</string>
+    <string name="title_signup_page">Complete your data below</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Let\'s decorate the world with your beautiful story ✨\neveryone has their own story, yours deserves to be heard, <b>come join us!</b></string>
+    <string name="title_login_page">Hi Friends 👋</string>
+    <string name="name">Name</string>
+    <string name="logout">Logout</string>
+    <string name="dont_have_account_txt">Don\'t have an acoount yet?</string>
+    <string name="email_address_warning_txt">Incorrect email address format !</string>
+    <string name="password_warning_txt">Password must not be less than 8 character !</string>
+    <string name="registration_success">Yeay, Your registration is successful</string>
+    <string name="registration_error_message">Registration failed !</string>
+    <string name="login_success_message">Yeay, Login success</string>
+    <string name="login_error_message">Login failed !</string>
+    <string name="description_story_txt">Description about your story</string>
+    <string name="language">Language</string>
+    <string name="error_load_story_message">Error to load story</string>
+    <string name="detail_story_title" translatable="false">Detail Story</string>
+    <string name="camera_txt">Camera</string>
+    <string name="gallery_txt">Gallery</string>
+    <string name="upload_txt">Upload</string>
+    <string name="upload_story_warning">All data must be entered first</string>
+    <string name="invalid_input">Invalid input, fill in all the data first</string>
+    <string name="permission_request_granted_txt">Permission request granted</string>
+    <string name="permission_request_denied">Permission request denied</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="maps_txt">Maps</string>
+    <string name="try_again_txt">Try again</string>
+    <string name="action_to_add_story_txt">action to add story</string>
+    <string name="image_register_user_txt">image register user</string>
+    <string name="image_story_user_txt">image story user</string>
+
+</resources>

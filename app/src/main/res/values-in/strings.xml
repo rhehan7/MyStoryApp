@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Story App</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="title_signup_page">Lengkapi data Anda di bawah ini ya</string>
+    <string name="email">Email</string>
+    <string name="password">Kata sandi</string>
+    <string name="message_login_page">Mari hiasi dunia dengan cerita indahmu ✨\nsetiap orang punya kisahnya masing-masing, ceritamu pantas untuk didengarkan, <b>ayo bergabung dengan kami!</b></string>
+    <string name="title_login_page">Halo Kawan 👋</string>
+    <string name="name">Nama</string>
+    <string name="logout">Keluar</string>
+    <string name="dont_have_account_txt">"Belum memiliki akun?"</string>
+    <string name="email_address_warning_txt">format alamat email salah !</string>
+    <string name="password_warning_txt">Kata sandi tidak boleh kurang dari 8 karakter!</string>
+    <string name="registration_success">Yeay, pendaftaran kamu berhasil !</string>
+    <string name="registration_error_message">Pendaftaran gagal !</string>
+    <string name="login_success_message">Yeay, berhasil masuk</string>
+    <string name="login_error_message">Gagal masuk !</string>
+    <string name="description_story_txt">Deskripsi tentang cerita kamu</string>
+    <string name="language">Bahasa</string>
+    <string name="error_load_story_message">Gagal memuat cerita</string>
+    <string name="camera_txt">Kamera</string>
+    <string name="gallery_txt">Galeri</string>
+    <string name="upload_txt">Unggah</string>
+    <string name="upload_story_warning">Semua data harus dimasukan terlebih dahulu</string>
+    <string name="invalid_input">Masukan tidak valid, isi semua data terlebih dahulu</string>
+    <string name="permission_request_granted_txt">Permintaan izin diberikan</string>
+    <string name="permission_request_denied">Permintaan izin ditolak</string>
+    <string name="maps_txt">Peta</string>
+    <string name="try_again_txt">Coba lagi</string>
+    <string name="action_to_add_story_txt">aksi untuk menambah cerita</string>
+    <string name="image_register_user_txt">gambar pendaftaran pengguna</string>
+    <string name="image_story_user_txt">gambar cerita pengguna</string>
+</resources>
