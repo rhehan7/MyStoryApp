@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?android:colorBackground"
     tools:context=".view.upload.AddStoryActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -81,6 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
                 android:gravity="top"
+                android:background="?android:colorBackground"
                 android:hint="@string/description_story_txt"
                 android:inputType="textMultiLine"
                 android:scrollbarAlwaysDrawVerticalTrack="true"

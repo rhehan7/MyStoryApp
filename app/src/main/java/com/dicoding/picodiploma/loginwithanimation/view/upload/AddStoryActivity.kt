@@ -3,9 +3,11 @@ package com.dicoding.picodiploma.loginwithanimation.view.upload
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.graphics.drawable.ColorDrawable
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
+import android.util.TypedValue
 import android.view.View
 import android.widget.Toast
 import androidx.activity.result.PickVisualMediaRequest
@@ -53,6 +55,16 @@ class AddStoryActivity : AppCompatActivity() {
 
         // event listener
         setupListeners()
+        //
+        setTopAppBarColor()
+    }
+
+    private fun setTopAppBarColor() {
+        val typedValue = TypedValue()
+        theme.resolveAttribute(R.attr.colorPrimary, typedValue, true)
+        val color = typedValue.data
+
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(color))
     }
 
 

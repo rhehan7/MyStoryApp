@@ -1,13 +1,16 @@
 package com.dicoding.picodiploma.loginwithanimation.view.main
 
 import android.content.Intent
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.provider.Settings
+import android.util.TypedValue
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat.startActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.dicoding.picodiploma.loginwithanimation.R
@@ -37,7 +40,18 @@ class MainActivity : AppCompatActivity() {
         setupView()
         // set list user stories
         setupAction()
+        //
+        setTopAppBarColor()
     }
+
+    private fun setTopAppBarColor() {
+        val typedValue = TypedValue()
+        theme.resolveAttribute(R.attr.colorPrimary, typedValue, true)
+        val color = typedValue.data
+
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(color))
+    }
+
 
     private fun observeSession() {
         mainViewModel.getSession().observe(this) { user ->

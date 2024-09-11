@@ -2,9 +2,11 @@ package com.dicoding.picodiploma.loginwithanimation.view.maps
 
 import android.content.pm.PackageManager
 import android.content.res.Resources
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.util.TypedValue
 import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
@@ -48,6 +50,16 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
+        //
+        setTopAppBarColor()
+    }
+
+    private fun setTopAppBarColor() {
+        val typedValue = TypedValue()
+        theme.resolveAttribute(R.attr.colorPrimary, typedValue, true)
+        val color = typedValue.data
+
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(color))
     }
 
     override fun onMapReady(googleMap: GoogleMap) {

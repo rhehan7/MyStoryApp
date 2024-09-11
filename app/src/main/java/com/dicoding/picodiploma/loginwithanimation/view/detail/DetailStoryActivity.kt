@@ -1,6 +1,8 @@
 package com.dicoding.picodiploma.loginwithanimation.view.detail
 
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.util.TypedValue
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.dicoding.picodiploma.loginwithanimation.R
@@ -21,6 +23,16 @@ class DetailStoryActivity : AppCompatActivity() {
 
         setupView()
         setupAction(detailStory)
+        //
+        setTopAppBarColor()
+    }
+
+    private fun setTopAppBarColor() {
+        val typedValue = TypedValue()
+        theme.resolveAttribute(R.attr.colorPrimary, typedValue, true)
+        val color = typedValue.data
+
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(color))
     }
 
     private fun setupView() {
